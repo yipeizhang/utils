@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_loading"
+    android:padding="20dp"
+    >
+
+    <com.bull.utils.view.MaterialProgressBar
+        android:id="@+id/mpb"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_toRightOf="@id/mpb"
+        android:textSize="17sp"
+        android:textColor="#333"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        />
+
+
+</RelativeLayout>
